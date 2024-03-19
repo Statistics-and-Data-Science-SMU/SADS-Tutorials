@@ -1,6 +1,7 @@
 # Week 1 – Excel, Tableau, PowerBI
 
-This first week serve as an introduction to data processing. We will explore approaches to big datasets and practice visualizations using a few different tools.
+This first week serve as an introduction to data processing. We will explore approaches to big datasets and practice visualizations using a few different tools. Don't worry if you don't have any experience using any of these; it's a lot simpler than it seems! 
+
 ## Dataset
 
 

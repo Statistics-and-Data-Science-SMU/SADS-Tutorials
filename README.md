@@ -7,7 +7,7 @@ This is the introductory data science processing project for Spring 2024. The go
 We are covering a variety of tools across 4 weeks:
 1. Excel, Tableau, and Power BI Overview
 2. Deliverable with Tableau
-3. SQL: Datasets under Week3 folder above and instructions here https://docs.google.com/document/d/1uZgEsW691xuUoQx0yoBLwQQY0ZasNuHsXPbFereSCGo/edit?usp=sharing
+3. SQL: Datasets under Week3 folder and instructions here https://docs.google.com/document/d/1uZgEsW691xuUoQx0yoBLwQQY0ZasNuHsXPbFereSCGo/edit?usp=sharing
 4. Python Intro
 
 This GitHub serves as a central location to store tutorials, files, and other materials related to this project. With any questions/concerns feel free to reach me at ayank@smu.edu or 972-904-8585.

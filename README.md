@@ -6,7 +6,7 @@ This is the introductory data science processing project for Spring 2024. The go
 
 We are covering a variety of tools across 4 weeks:
 1. Excel, Tableau, and Power BI Overview
-2. Deliverable with Tableau
+2. Deliverable with Tableau: https://docs.google.com/document/d/1uZgEsW691xuUoQx0yoBLwQQY0ZasNuHsXPbFereSCGo/edit?usp=sharing
 3. SQL
 4. Python Intro
 

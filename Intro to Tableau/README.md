@@ -78,4 +78,7 @@ An interactive dashboard showcasing Netflix content by release year, genre, and 
 3. Arrange them in a grid or stacked format, adjusting the sizes as needed.
 ![image](https://github.com/user-attachments/assets/0021ebf1-85a9-404f-8ccb-d584e6f3da8f)
 
+### Try it Yourself
+Contruct the following graphic showing "Content by Country"
+![image](https://github.com/user-attachments/assets/a5781412-9ec2-4198-8ff7-7c1c752e5c25)
 

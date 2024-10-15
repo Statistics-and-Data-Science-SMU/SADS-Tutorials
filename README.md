@@ -2,8 +2,18 @@
 This project is being lead by *Nia Savova* and *Ayan Khan*. 
 - Join the GroupMe here: https://groupme.com/join_group/99935577/Rb1Of8Oa
 
-This is the introductory data science processing project for Spring 2024. The goal of this project is to introduce members to a variety of data science tools and processes. We hope you will understand how to clean, process, and model data after this project! 
+This is the introductory data science processing project for Fall 2024. The goal of these mini-worksops and projects is to introduce members to a variety of data science tools and processes. We hope you will understand how to clean, process, and model data compiling your work into a single project protfolio of ! 
 
+##Planned Workshop Topics by Semester
+**Fall 2024**
+We are covering a variety of tools across 5 weeks:
+1. Data Vizualization with Tableau: Analysing Netflix Content
+2. Data Cleaning and Manipulation in Excel
+3. Intro to Python for Data Analysis
+4. Build a Mechine Learning Model
+5. TBD
+
+**Spring 2024**
 We are covering a variety of tools across 4 weeks:
 1. Excel, Tableau, and Power BI Overview
 2. Deliverable with Tableau

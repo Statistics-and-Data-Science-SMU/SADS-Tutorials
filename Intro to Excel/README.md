@@ -15,9 +15,9 @@ Here are the instructions on how to get Excel;
 ### Data Cleaning
 Remove Duplicates:
 •	Using "Remove Duplicates" to clean the Orders and Returns tables. 
-•	Identifying and handling missing data (e.g., blank cells).
-•	Splitting Columns (Text to Columns function)
-•	Formatting Cells
+* Identifying and handling missing data (e.g., blank cells).
+* Splitting Columns (Text to Columns function)
+* Formatting Cells
 ### Data Analysis with Formulas
 •	Skipping these basic ones, assuming they know these
   * Basic formulas (sum, average, count, min, max, etc.)

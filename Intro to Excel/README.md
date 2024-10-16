@@ -70,6 +70,8 @@ Pivot tables are one of Excel’s most powerful tools for data analysis. They al
 2.	**Drag** Product Category to the **Columns** area.
 3.	**Drag** Sales to the **Values** area.
 4.	Excel will automatically summarize the total sales for each region and product category, making it easy to identify trends or areas of high performance.
+![image](https://github.com/user-attachments/assets/d760d293-694b-4efb-b70c-d7a2f2dec5a0)
+
 
 **Example: Counting the Number of Orders by Customer Segment**
 1.	**Drag** Customer Segment to the **Rows** area.
@@ -81,6 +83,8 @@ Pivot tables are one of Excel’s most powerful tools for data analysis. They al
 * You can filter data within the pivot table using the dropdown arrows that appear next to the Row or Column labels.
 ### Refreshing a Pivot Table
 * If you update the original data source, your pivot table won’t automatically update. You’ll need to refresh it by clicking on the **PivotTable Analyze** tab and selecting **Refresh**.
+![image](https://github.com/user-attachments/assets/54d4c42b-07c1-4389-baa3-a621aa41fddc)
+
 
 ## Charts
 Charts are essential for visualizing data and making insights easier to understand. Excel offers a variety of chart types to help you represent data visually.

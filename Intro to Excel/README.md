@@ -9,17 +9,17 @@ Here are the instructions on how to get Excel;
 3.	That’s it! You’re all set up.
 
 ### Workbook vs CSV
-•	What is a CSV? CSV stands for Comma Separated Values; files of this type have the ".csv" extension. It's a common data type, where data is stored as text separated by commas. You can open and edit these files in excel, but if you save a file as a CSV it'll change the formatting back to the default comma-separated format. If you want to save your tables/graphs, make sure to save your files as an Excel workbook.
-•	What is an Excel workbook? Files with the ".xls" or "xlsx" (they mean the same thing) are Excel workbooks. Data in this format is saved in a tabular form with rows/columns. 
+* What is a CSV? CSV stands for Comma Separated Values; files of this type have the ".csv" extension. It's a common data type, where data is stored as text separated by commas. You can open and edit these files in excel, but if you save a file as a CSV it'll change the formatting back to the default comma-separated format. If you want to save your tables/graphs, make sure to save your files as an Excel workbook.
+* What is an Excel workbook? Files with the ".xls" or "xlsx" (they mean the same thing) are Excel workbooks. Data in this format is saved in a tabular form with rows/columns. 
 
 ### Data Cleaning
 Remove Duplicates:
-•	Using "Remove Duplicates" to clean the Orders and Returns tables. 
+* Using "Remove Duplicates" to clean the Orders and Returns tables. 
 * Identifying and handling missing data (e.g., blank cells).
 * Splitting Columns (Text to Columns function)
 * Formatting Cells
 ### Data Analysis with Formulas
-•	Skipping these basic ones, assuming they know these
+* Skipping these basic ones, assuming they know these
   * Basic formulas (sum, average, count, min, max, etc.)
   * Logical functions (if, and, or)
 

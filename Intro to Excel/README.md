@@ -105,6 +105,8 @@ Charts are essential for visualizing data and making insights easier to understa
 2.	Go to **Insert** and click on **Column Chart** under the **Charts** group.
 3.	Excel will generate a column chart showing sales for each region.
 4.	Customize the chart using the Chart Tools (Design and Format tabs), where you can adjust colors, labels, and titles.
+![image](https://github.com/user-attachments/assets/610e5bd3-f0e6-41eb-a7b0-194efc9c44e7)
+   
 ### Customizing Your Chart
 * **Chart Title**: Add or modify the title of your chart by clicking on it and typing a new name.
 * **Axis Titles**: Add axis titles by selecting the chart and going to the Chart Elements (the plus sign next to the chart), then check the **Axis Titles** box.

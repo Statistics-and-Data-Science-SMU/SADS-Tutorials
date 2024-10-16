@@ -45,11 +45,11 @@ Remove Duplicates:
 **I want to find the total cost of all returned items, using Lookup functions.**
 Steps:
 1.	Go to the **Returns** window
-2.	Convert the values there into a table
+2.	Convert the values there into a table <br>
     a. Go to **insert** tab, press **table**, select the range =$A$1:$B$1635
-4.	Create new column for cost
+4.	Create new column for cost <br>
     a. In Cell **C1**, type **“Cost”**
-6.	Find the Cost of each return
+6.	Find the Cost of each return <br>
     a. =XLOOKUP([@[Order ID]], Orders!Y1:Y1956, Orders!E1:E1956, "Not Found")
  
 ## Pivot Tables

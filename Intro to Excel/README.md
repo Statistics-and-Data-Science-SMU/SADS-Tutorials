@@ -63,11 +63,13 @@ Pivot tables are one of Excel’s most powerful tools for data analysis. They al
   *	**Values:** This is where you put the numerical data you want to summarize, like Sales, Quantity, or Profit. You can change the aggregation method (Sum, Average, Count, etc.) by clicking on the drop-down arrow next to the field name.
   *	**Columns:** Use this area to break your data down into more detailed subcategories, such as by Region or Ship Mode.
   *	**Filters:** This area lets you filter your pivot table based on specific criteria, like a particular Product Category or Date range.
+
 **Example: Analyzing Total Sales by Region and Product Category**
 1.	**Drag** Region to the Rows area.
 2.	**Drag** Product Category to the **Columns** area.
 3.	**Drag** Sales to the **Values** area.
 4.	Excel will automatically summarize the total sales for each region and product category, making it easy to identify trends or areas of high performance.
+
 **Example: Counting the Number of Orders by Customer Segment**
 1.	**Drag** Customer Segment to the **Rows** area.
 2.	**Drag** Order ID to the **Values** area.
@@ -91,6 +93,7 @@ Charts are essential for visualizing data and making insights easier to understa
   *	**Pie Chart**: Useful for showing proportions of a whole (e.g., Market share of different regions).
   *	**Scatter Plot**: Good for displaying correlations between two variables (e.g., Sales vs. Profit).
   *	**Combo Chart**: Combine two chart types, such as a line chart and a column chart, to show different aspects of your data together.
+
 **Example: Creating a Column Chart to Show Sales by Region**
 1.	**Select** the data for Region and Sales from your dataset.
 2.	Go to **Insert** and click on **Column Chart** under the **Charts** group.
@@ -101,6 +104,7 @@ Charts are essential for visualizing data and making insights easier to understa
 * **Axis Titles**: Add axis titles by selecting the chart and going to the Chart Elements (the plus sign next to the chart), then check the **Axis Titles** box.
 * **Legend**: You can turn the legend on or off, or move it by selecting Legend under **Chart Elements**.
 * **Data Labels**: If you want to display the values directly on the chart, check the Data Labels box.
+
 **Example: Creating a Line Chart to Show Monthly Sales Trends**
 1.	Select the Order Date and Sales columns.
 2.	Go to **Insert** and choose a **Line Chart**.
@@ -115,6 +119,7 @@ Charts are essential for visualizing data and making insights easier to understa
 * Change Chart Colors: In the Design tab, you can choose from Excel’s predefined color themes or customize colors.
 * Change Chart Type: If you feel the chart type isn’t right for your data, you can switch it by clicking Change Chart Type in the Design tab.
 * Chart Style: Apply preset styles using the Chart Styles gallery under the Design tab to make your chart more visually appealing.
+
 **Example: Creating a Pie Chart for Market Share by Region**
 1.	Select the Region and Sales data.
 2.	Go to Insert and choose Pie Chart.

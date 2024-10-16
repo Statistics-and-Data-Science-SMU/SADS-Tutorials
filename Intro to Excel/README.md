@@ -26,18 +26,19 @@ Remove Duplicates:
 
 * Lookup functions:
   * V Lookup – You have an Orders table, and you want to find the customer name associated with a specific Customer ID.
-    * 	=VLOOKUP(customer_id, Orders!A:Y, 7, FALSE)
-* Customer_id is the id you want to look up
-* Orders!A:Y is the range of your table, with the first column containing ID
-* 7 specifies that we want to return the 7th column (Customer Name)
-* False indicates an exact match
+    * 	=VLOOKUP(row_id, Orders!A:Y, 7, FALSE)
+    * 	Row_id is the id you want to look up
+    * 	Orders!A:Y is the range of your table, with the first column containing ID
+    * 	7 specifies that we want to return the 7th column (Customer Name)
+    * 	False indicates an exact match
+    * 	example: for row_id 20847, customer name returned should be "Bonnie Potter"
   * H Lookup if our table is set up horizontally; same logic
   *	X Lookup – ex. Find the shipping cost for a specific Order ID
     *	=XLOOKUP(order_id, Orders!A:A, Orders!F:F, "Not Found")
-•	Order_id is the order to look up
-•	Orders!A:A is the column to search for the Order ID
-•	Orders!F:F is the column to return the shipping cost
-•	“Not Found” is the value returned if it’s not found
+       * Order_id is the order to look up
+       * Orders!A:A is the column to search for the Order ID
+       * Orders!F:F is the column to return the shipping cost
+       * “Not Found” is the value returned if it’s not found
 
 
 ### Task: 

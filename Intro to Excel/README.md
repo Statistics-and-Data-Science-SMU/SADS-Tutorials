@@ -23,13 +23,13 @@ Remove Duplicates:
   * Basic formulas (sum, average, count, min, max, etc.)
   * Logical functions (if, and, or)
 
-•	Lookup functions:
+* Lookup functions:
   * V Lookup – You have an Orders table, and you want to find the customer name associated with a specific Customer ID.
     * 	=VLOOKUP(customer_id, Orders!A:Y, 7, FALSE)
-•	Customer_id is the id you want to look up
-•	Orders!A:Y is the range of your table, with the first column containing ID
-•	7 specifies that we want to return the 7th column (Customer Name)
-•	False indicates an exact match
+* Customer_id is the id you want to look up
+* Orders!A:Y is the range of your table, with the first column containing ID
+* 7 specifies that we want to return the 7th column (Customer Name)
+* False indicates an exact match
   * H Lookup if our table is set up horizontally; same logic
   *	X Lookup – ex. Find the shipping cost for a specific Order ID
     *	=XLOOKUP(order_id, Orders!A:A, Orders!F:F, "Not Found")
@@ -74,10 +74,10 @@ Pivot tables are one of Excel’s most powerful tools for data analysis. They al
 3.	Change the aggregation from **Sum** to **Count** by clicking the drop-down arrow next to Order ID and selecting **Value Field Settings** > **Count**.
 4.	This will give you the total number of orders placed by each customer segment.
 ### Sorting and Filtering a Pivot Table
-•	You can easily sort the data by selecting a column and choosing **Sort A to Z** or **Sort Z to A**.
-•	You can filter data within the pivot table using the dropdown arrows that appear next to the Row or Column labels.
+* You can easily sort the data by selecting a column and choosing **Sort A to Z** or **Sort Z to A**.
+* You can filter data within the pivot table using the dropdown arrows that appear next to the Row or Column labels.
 ### Refreshing a Pivot Table
-•	If you update the original data source, your pivot table won’t automatically update. You’ll need to refresh it by clicking on the **PivotTable Analyze** tab and selecting **Refresh**.
+* If you update the original data source, your pivot table won’t automatically update. You’ll need to refresh it by clicking on the **PivotTable Analyze** tab and selecting **Refresh**.
 
 ## Charts
 Charts are essential for visualizing data and making insights easier to understand. Excel offers a variety of chart types to help you represent data visually.
@@ -97,31 +97,31 @@ Charts are essential for visualizing data and making insights easier to understa
 3.	Excel will generate a column chart showing sales for each region.
 4.	Customize the chart using the Chart Tools (Design and Format tabs), where you can adjust colors, labels, and titles.
 ### Customizing Your Chart
-•	**Chart Title**: Add or modify the title of your chart by clicking on it and typing a new name.
-•	**Axis Titles**: Add axis titles by selecting the chart and going to the Chart Elements (the plus sign next to the chart), then check the **Axis Titles** box.
-•	**Legend**: You can turn the legend on or off, or move it by selecting Legend under **Chart Elements**.
-•	**Data Labels**: If you want to display the values directly on the chart, check the Data Labels box.
+* **Chart Title**: Add or modify the title of your chart by clicking on it and typing a new name.
+* **Axis Titles**: Add axis titles by selecting the chart and going to the Chart Elements (the plus sign next to the chart), then check the **Axis Titles** box.
+* **Legend**: You can turn the legend on or off, or move it by selecting Legend under **Chart Elements**.
+* **Data Labels**: If you want to display the values directly on the chart, check the Data Labels box.
 **Example: Creating a Line Chart to Show Monthly Sales Trends**
 1.	Select the Order Date and Sales columns.
 2.	Go to **Insert** and choose a **Line Chart**.
 3.	Excel will create a line chart that shows the trend of sales over time.
 4.	You can format the chart by changing the line colors, adding markers, or customizing the time intervals on the x-axis using the Chart Tools tab.
 ### Combo Charts
-•	Combo charts allow you to plot different types of data together (e.g., Sales and Profit).
+* Combo charts allow you to plot different types of data together (e.g., Sales and Profit).
 1.	Select your data (e.g., Sales and Profit).
 2.	Go to the Insert tab, click Combo Chart, and choose the desired combo (e.g., Column for Sales, Line for Profit).
 3.	This chart helps in comparing two related metrics in a single visual.
 ### Formatting Tips
-•	Change Chart Colors: In the Design tab, you can choose from Excel’s predefined color themes or customize colors.
-•	Change Chart Type: If you feel the chart type isn’t right for your data, you can switch it by clicking Change Chart Type in the Design tab.
-•	Chart Style: Apply preset styles using the Chart Styles gallery under the Design tab to make your chart more visually appealing.
+* Change Chart Colors: In the Design tab, you can choose from Excel’s predefined color themes or customize colors.
+* Change Chart Type: If you feel the chart type isn’t right for your data, you can switch it by clicking Change Chart Type in the Design tab.
+* Chart Style: Apply preset styles using the Chart Styles gallery under the Design tab to make your chart more visually appealing.
 **Example: Creating a Pie Chart for Market Share by Region**
 1.	Select the Region and Sales data.
 2.	Go to Insert and choose Pie Chart.
 3.	Excel will generate a pie chart showing how much each region contributes to total sales.
 4.	Customize it by adding Data Labels to show percentages.
 ### Dynamic Charts with Pivot Tables
-•	You can create Pivot Charts by adding a chart to a pivot table. These charts automatically update when you filter or modify the pivot table.
+* You can create Pivot Charts by adding a chart to a pivot table. These charts automatically update when you filter or modify the pivot table.
 1.	Create a Pivot Table.
 2.	Go to the PivotTable Analyze tab and click PivotChart.
 3.	Choose a chart type, and it will dynamically update as you change the pivot table.

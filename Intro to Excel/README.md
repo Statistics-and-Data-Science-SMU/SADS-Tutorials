@@ -133,6 +133,8 @@ Charts are essential for visualizing data and making insights easier to understa
 2.	Go to Insert and choose Pie Chart.
 3.	Excel will generate a pie chart showing how much each region contributes to total sales.
 4.	Customize it by adding Data Labels to show percentages.
+![image](https://github.com/user-attachments/assets/09cb32fc-cd00-4b1b-b51e-bdf52b1fb885)
+
 ### Dynamic Charts with Pivot Tables
 * You can create Pivot Charts by adding a chart to a pivot table. These charts automatically update when you filter or modify the pivot table.
 1.	Create a Pivot Table.

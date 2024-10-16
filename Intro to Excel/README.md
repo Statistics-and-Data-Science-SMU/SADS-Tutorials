@@ -118,6 +118,8 @@ Charts are essential for visualizing data and making insights easier to understa
 2.	Go to **Insert** and choose a **Line Chart**.
 3.	Excel will create a line chart that shows the trend of sales over time.
 4.	You can format the chart by changing the line colors, adding markers, or customizing the time intervals on the x-axis using the Chart Tools tab.
+<img width="631" alt="Screenshot 2024-10-16 at 6 10 38 PM" src="https://github.com/user-attachments/assets/a2411dbf-03b1-47fa-aa29-017e884770f3">
+
 ### Combo Charts
 * Combo charts allow you to plot different types of data together (e.g., Sales and Profit).
 1.	Select your data (e.g., Sales and Profit).

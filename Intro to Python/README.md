@@ -25,13 +25,10 @@ Lists: A list is a collection of items.
 
 Dictionaries: A dictionary holds key-value pairs.
 
-python
-
-student = {"name": "Alice", "age": 25, "courses": ["Math", "Science"]}
+    student = {"name": "Alice", "age": 25, "courses": ["Math", "Science"]}
 
 Tuples: A tuple is an immutable collection of items.
 
-python
 
     coordinates = (10.0, 20.0)
 
@@ -49,9 +46,7 @@ Remove Duplicates:
 
 Handling Missing Data:
 
-    Filter out None values from a list:
-
-    python
+Filter out None values from a list:
 
     data = [1, None, 3, None, 5]
     cleaned_data = [x for x in data if x is not None]
@@ -60,17 +55,15 @@ Handling Missing Data:
 Data Analysis with Functions
 Basic Operations
 
-    Arithmetic Operations: Perform calculations directly.
+Arithmetic Operations: Perform calculations directly.
 
-    python
 
-a = 10
-b = 5
-print(a + b)  # Output: 15
-
+    a = 10
+    b = 5
+    print(a + b)  # Output: 15
+    
 Logical Operations: Use conditions to control flow.
 
-python
 
     if a > b:
         print("a is greater than b")
@@ -79,9 +72,8 @@ Using Functions
 
 Defining Functions:
 
-    Create a function to compute the square of a number.
+Create a function to compute the square of a number.
 
-    python
 
     def square(x):
         return x * x
@@ -92,9 +84,8 @@ Task: Basic Data Manipulation
 
 Calculate Total of a List:
 
-    Write a function to sum a list of numbers.
+Write a function to sum a list of numbers.
 
-    python
 
     def total(numbers):
         return sum(numbers)
@@ -104,13 +95,12 @@ Calculate Total of a List:
 Data Visualization (using Matplotlib)
 Creating Simple Plots
 
-    Install Matplotlib:
+Install Matplotlib:
         Use the command pip install matplotlib to install the library.
 
-    Basic Plot:
+Basic Plot:
         Create a simple line plot.
 
-    python
 
     import matplotlib.pyplot as plt
 
@@ -122,16 +112,6 @@ Creating Simple Plots
     plt.ylabel("Y-axis")
     plt.show()
 
-Data Analysis with Pandas
-Using Pandas for Data Manipulation
-
-    Install Pandas:
-        Use pip install pandas to install the library.
-
-    Reading a CSV File:
-        Load data from a CSV file using Pandas.
-
-    python
 
 import pandas as pd
 

@@ -18,11 +18,10 @@ Python Files vs. Jupyter Notebooks
 Data Handling
 Basic Data Structures
 
-    Lists: A list is a collection of items.
+Lists: A list is a collection of items.
 
-    python
 
-fruits = ["apple", "banana", "cherry"]
+    fruits = ["apple", "banana", "cherry"]
 
 Dictionaries: A dictionary holds key-value pairs.
 

@@ -112,8 +112,3 @@ Basic Plot:
     plt.ylabel("Y-axis")
     plt.show()
 
-
-import pandas as pd
-
-df = pd.read_csv("data.csv")  # Replace with your CSV file path
-print(df.head())  # Display the first 5 rows

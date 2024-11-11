@@ -1,6 +1,6 @@
 # 🚀 Getting Started
 ## 1. Setup
-Install SQL: If not already installed, use a tool like SQLite[https://sqlitebrowser.org/dl/] or an online platform such as DB Fiddle[https://www.db-fiddle.com/] or SQLBolt[https://sqlbolt.com/].
+Install SQL: If not already installed, use a tool like [SQLite](https://sqlitebrowser.org/dl/) or an online platform such as [DB Fiddle](https://www.db-fiddle.com/) or [SQLBolt](https://sqlbolt.com/).
 
 ## 2. The Basics of SQL
 🗂️ What is SQL?
@@ -156,8 +156,8 @@ SQL allows us to create, modify, and query data in databases.
 Commands like SELECT, INSERT, UPDATE, and DELETE enable powerful data operations.
 Practice with JOINs, filtering, and aggregation to become proficient in SQL!
 ### Further Reading
-SQLBolt[https://sqlbolt.com/] - Interactive SQL lessons.
-Mode SQL Tutorial[https://mode.com/sql-tutorial/] - Free SQL tutorial with practice queries.
+[SQLBolt][(https://sqlbolt.com/) - Interactive SQL lessons.
+[Mode SQL Tutorial](https://mode.com/sql-tutorial/) - Free SQL tutorial with practice queries.
 Happy Coding! :)
 
 Feel free to reach out to our team with any questions or for more resources!

@@ -156,7 +156,7 @@ SQL allows us to create, modify, and query data in databases. <br>
 Commands like SELECT, INSERT, UPDATE, and DELETE enable powerful data operations. <br>
 Practice with JOINs, filtering, and aggregation to become proficient in SQL!
 ### Further Reading
-[SQLBolt][(https://sqlbolt.com/) - Interactive SQL lessons. <br>
+[SQLBolt](https://sqlbolt.com/) - Interactive SQL lessons. <br>
 [Mode SQL Tutorial](https://mode.com/sql-tutorial/) - Free SQL tutorial with practice queries. <br>
 Happy Coding! :)
 

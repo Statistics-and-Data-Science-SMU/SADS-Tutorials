@@ -11,7 +11,7 @@ SQL (Structured Query Language) is a language designed for interacting with data
 
 ## 📖 Section 1: Data Definition Language (DDL)
 ### 1. Creating a Table
-```
+```sql
 CREATE TABLE Students (
     StudentID INTEGER PRIMARY KEY,
     FirstName TEXT,

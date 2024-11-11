@@ -24,14 +24,14 @@ CREATE TABLE Students (
 **Explanation**: This command creates a Students table with columns for StudentID, FirstName, LastName, Age, Major, and GPA.
 
 ### 2. Dropping a Table
-```
+```sql
 DROP TABLE IF EXISTS Students;
 ```
 **Explanation**: Deletes the Students table if it exists. Use carefully as it permanently removes the table and data within it.
 
 ## 📖 Section 2: Data Manipulation Language (DML)
 ### 1. Inserting Data
-```
+```sql
 INSERT INTO Students (StudentID, FirstName, LastName, Age, Major, GPA)
 VALUES (1, 'Alice', 'Smith', 20, 'Mathematics', 3.8),
        (2, 'Bob', 'Johnson', 21, 'Computer Science', 3.6),
@@ -40,7 +40,7 @@ VALUES (1, 'Alice', 'Smith', 20, 'Mathematics', 3.8),
 **Explanation**: Adds records into the Students table.
 
 ### 2. Updating Data
-```
+```sql
 UPDATE Students
 SET GPA = 3.9
 WHERE StudentID = 2;
@@ -48,7 +48,7 @@ WHERE StudentID = 2;
 **Explanation**: Updates the GPA of the student with StudentID 2 to 3.9.
 
 ### 3. Deleting Data
-```
+```sql
 DELETE FROM Students
 WHERE Age < 21;
 ```
@@ -56,32 +56,32 @@ WHERE Age < 21;
 
 ## 📖 Section 3: Querying Data with SELECT
 ### 1. Selecting All Columns
-```
+```sql
 SELECT * FROM Students;
 ```
 **Explanation**: Retrieves all columns from the Students table.
 
 ### 2. Selecting Specific Columns
-```
+```sql
 SELECT FirstName, LastName, GPA FROM Students;
 ```
 **Explanation**: Retrieves only the FirstName, LastName, and GPA columns.
 
 ### 3. Filtering with WHERE
-```
+```sql
 SELECT * FROM Students
 WHERE Major = 'Computer Science';
 ```
 **Explanation**: Retrieves all students with a major in Computer Science.
 
 ### 4. Using Aggregate Functions
-```
+```sql
 SELECT AVG(GPA) AS AverageGPA FROM Students;
 ```
 **Explanation**: Calculates the average GPA of all students.
 
 ### 5. Grouping with GROUP BY
-```
+```sql
 SELECT Major, COUNT(*) AS NumStudents
 FROM Students
 GROUP BY Major;
@@ -89,7 +89,7 @@ GROUP BY Major;
 **Explanation**: Counts the number of students in each major.
 
 ### 6. Sorting with ORDER BY
-```
+```sql
 SELECT FirstName, LastName, GPA
 FROM Students
 ORDER BY GPA DESC;
@@ -101,7 +101,7 @@ Joins allow you to combine data from multiple tables based on a related column.
 
 ### Example with INNER JOIN
 Suppose we have another table Courses:
-```
+```sql
 CREATE TABLE Courses (
     CourseID INTEGER PRIMARY KEY,
     CourseName TEXT,
@@ -113,17 +113,16 @@ VALUES (1, 'Database Systems', 'Dr. Kim'),
        (2, 'Statistics', 'Dr. Patel');
 ```
 **Query to Join Students and Courses:**
-```
+```sql
 SELECT Students.FirstName, Students.LastName, Courses.CourseName
 FROM Students
 INNER JOIN Courses ON Students.Major = Courses.CourseName;
 ```
 **Explanation**: Joins Students with Courses to match students’ majors with course names.
 
-Example with LEFT JOIN
+### Example with LEFT JOIN
 Suppose we also have a table Enrollments that lists which students are enrolled in specific courses:
-
-```
+```sql
 CREATE TABLE Enrollments (
     StudentID INTEGER,
     CourseID INTEGER,
@@ -136,7 +135,7 @@ VALUES (1, 1, 'Fall 2024'),
        (3, 2, 'Spring 2024');
 ```
 **Query to Left Join Students and Enrollments:**
-```
+```sql
 SELECT Students.FirstName, Students.LastName, Enrollments.CourseID, Enrollments.Semester
 FROM Students
 LEFT JOIN Enrollments ON Students.StudentID = Enrollments.StudentID;

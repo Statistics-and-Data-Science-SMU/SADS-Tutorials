@@ -3,7 +3,7 @@
 Install SQL: If not already installed, use a tool like [SQLite](https://sqlitebrowser.org/dl/) or an online platform such as [DB Fiddle](https://www.db-fiddle.com/) or [SQLBolt](https://sqlbolt.com/).
 
 ## 2. The Basics of SQL
-🗂️ What is SQL?
+🗂️ What is SQL? <br>
 **SQL** (Structured Query Language) is a language designed for interacting with databases. It allows you to store, manipulate, and retrieve data. The primary commands are divided into:
 * DDL (Data Definition Language): Commands like CREATE, ALTER, DROP.
 * DML (Data Manipulation Language): Commands like SELECT, INSERT, UPDATE, DELETE.
@@ -152,12 +152,12 @@ Try out these queries to solidify your understanding:
 
 ## 🚀 Wrapping Up
 ### Summary:
-SQL allows us to create, modify, and query data in databases.
-Commands like SELECT, INSERT, UPDATE, and DELETE enable powerful data operations.
+SQL allows us to create, modify, and query data in databases. <br>
+Commands like SELECT, INSERT, UPDATE, and DELETE enable powerful data operations. <br>
 Practice with JOINs, filtering, and aggregation to become proficient in SQL!
 ### Further Reading
-[SQLBolt][(https://sqlbolt.com/) - Interactive SQL lessons.
-[Mode SQL Tutorial](https://mode.com/sql-tutorial/) - Free SQL tutorial with practice queries.
+[SQLBolt][(https://sqlbolt.com/) - Interactive SQL lessons. <br>
+[Mode SQL Tutorial](https://mode.com/sql-tutorial/) - Free SQL tutorial with practice queries. <br>
 Happy Coding! :)
 
-Feel free to reach out to our team with any questions or for more resources!
+*Feel free to reach out to our team with any questions or for more resources!*

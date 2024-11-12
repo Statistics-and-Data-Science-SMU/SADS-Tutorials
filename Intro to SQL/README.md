@@ -34,8 +34,15 @@ DROP TABLE IF EXISTS Students;
 ```sql
 INSERT INTO Students (StudentID, FirstName, LastName, Age, Major, GPA)
 VALUES (1, 'Alice', 'Smith', 20, 'Mathematics', 3.8),
-       (2, 'Bob', 'Johnson', 21, 'Computer Science', 3.6),
-       (3, 'Charlie', 'Lee', 22, 'Statistics', 3.9);
+       (2, 'Bob', 'Johnson', 21, 'Computer Science', 2.0),
+       (3, 'Charlie', 'Lee', 22, 'Statistics', 3.9),
+	   (4, 'David', 'Brown', 20, 'Political Science', 3.6),
+	   (5, 'Eve', 'Jackson', 20, 'Mathematics', 3.7),
+	   (6, 'Frank', 'Benjamin', 21, 'Film', 2.3),
+	   (7, 'Giselle', 'Martinez', 22, 'Computer Science', 3.2),
+	   (8, 'Hailey', 'Garfield', 19, 'Political Science', 3.7),
+	   (9, 'Igor', 'Dimitrov', 22, 'Visual Arts', 3.1),
+	   (10, 'Julia', 'Michaels', 20, 'Computer Science', 3.9);
 ```
 **Explanation**: Adds records into the Students table.
 
@@ -50,7 +57,7 @@ WHERE StudentID = 2;
 ### 3. Deleting Data
 ```sql
 DELETE FROM Students
-WHERE Age < 21;
+WHERE Age < 20;
 ```
 **Explanation**: Removes all records where the Age is less than 21.
 
@@ -110,7 +117,10 @@ CREATE TABLE Courses (
 
 INSERT INTO Courses (CourseID, CourseName, Instructor)
 VALUES (1, 'Database Systems', 'Dr. Kim'),
-       (2, 'Statistics', 'Dr. Patel');
+       (2, 'Statistics', 'Dr. Patel'),
+	   (3, 'American History', 'Dr. Patts'),
+	   (4, 'Mathematics', 'Dr. Mathews'),
+	   (5, 'Computer Science', 'Dr. Stark');
 ```
 **Query to Join Students and Courses:**
 ```sql
@@ -131,8 +141,11 @@ CREATE TABLE Enrollments (
 
 INSERT INTO Enrollments (StudentID, CourseID, Semester)
 VALUES (1, 1, 'Fall 2024'),
-       (2, 1, 'Fall 2024'),
-       (3, 2, 'Spring 2024');
+       (4, 1, 'Fall 2024'),
+       (3, 2, 'Spring 2024'),
+       (7,2, 'Spring 2024'),
+       (5,2, 'Spring 2024'),
+	   (10, 2, 'Summer 2024');
 ```
 **Query to Left Join Students and Enrollments:**
 ```sql
@@ -146,9 +159,16 @@ LEFT JOIN Enrollments ON Students.StudentID = Enrollments.StudentID;
 Try out these queries to solidify your understanding:
 
 1. Retrieve all students with a GPA above 3.7.
-2. Count how many students are in each major.
-3. Update the Major of a specific student.
-4. Delete records of students with a GPA below 2.5.
+![image](https://github.com/user-attachments/assets/7c07943c-d69e-4fd4-84d5-fc472ea4b8b2)
+
+2. Update the Major of a specific student.
+![image](https://github.com/user-attachments/assets/3b285eea-7bd9-47ce-b1b4-faaf88bbc0af)
+
+3. Delete records of students with a GPA below 2.5.
+![image](https://github.com/user-attachments/assets/19d2522a-60c4-475b-9fa7-a707238d4751)
+
+4. Find average GPA of Computer Science students.
+![image](https://github.com/user-attachments/assets/4055d9a9-0148-49e3-97fb-328467a305ff)
 
 ## 🚀 Wrapping Up
 ### Summary:

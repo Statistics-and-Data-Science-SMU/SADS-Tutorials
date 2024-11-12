@@ -159,16 +159,20 @@ LEFT JOIN Enrollments ON Students.StudentID = Enrollments.StudentID;
 Try out these queries to solidify your understanding:
 
 1. Retrieve all students with a GPA above 3.7.
+2. 
 ![image](https://github.com/user-attachments/assets/7c07943c-d69e-4fd4-84d5-fc472ea4b8b2)
 
-2. Update the Major of a specific student.
+3. Update the Major of a specific student.
+4. 
 ![image](https://github.com/user-attachments/assets/3b285eea-7bd9-47ce-b1b4-faaf88bbc0af)
 
-3. Delete records of students with a GPA below 2.5.
+5. Delete records of students with a GPA below 2.5.
+6. 
 ![image](https://github.com/user-attachments/assets/19d2522a-60c4-475b-9fa7-a707238d4751)
 
-4. Find average GPA of Computer Science students.
-![image](https://github.com/user-attachments/assets/4055d9a9-0148-49e3-97fb-328467a305ff)
+7. Find average GPA of Computer Science students.
+8. 
+<img src="https://github.com/user-attachments/assets/4055d9a9-0148-49e3-97fb-328467a305ff" width="300" />
 
 ## 🚀 Wrapping Up
 ### Summary:

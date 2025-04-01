@@ -1,5 +1,8 @@
 # Introduction to Python Programming
 
+Below: a great python tutorial! 
+https://www.kaggle.com/code/kanncaa1/data-sciencetutorial-for-beginners
+
 # Installation
 
 # Getting Started
